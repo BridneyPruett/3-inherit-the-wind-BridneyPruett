@@ -6,15 +6,14 @@ public class Person {
     private String fullName;
     private int YOB;
 
-    public Person(){
-        this.ID = "012";
-        this.firstName = "Bridney";
-        this.lastName = "Pruett";
-        this.title = "Ms";
-        this.fullName = "Ms.Bridney Pruett";
-        this.YOB = 1990;
-    }
-
+   // public Person(){
+   //     this.ID = "012";
+   //     this.firstName = "Bridney";
+   //     this.lastName = "Pruett";
+   //     this.title = "Ms";
+   //     this.fullName = "Ms.Bridney Pruett";
+   //     this.YOB = 1990;
+   // }
     public Person(String ID, String firstName, String lastName, int YOB, String title){
         this.ID = ID;
         this.firstName = firstName;
